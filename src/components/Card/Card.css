@@ -1,0 +1,74 @@
+.mt-card {
+    background-color: #ffffff;
+    border-radius: 2px;
+    /* border: 1px solid red; */
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 4px 0px;
+    height: 225px;
+    width: 250px;
+    margin: 10px auto;
+    transition: all 0.2s ease-in-out 0s;
+}
+.mt-card:hover {
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 8px 0px;
+    cursor: pointer;
+}
+.mt-card-header {
+    /* border: 1px solid red; */
+    height: 65%;
+    width: 100%;
+    position: relative;
+}
+.mt-card-header div.carousel {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.mt-card-header span {
+    background: #ffffff;
+    color: rgb(255, 21, 85);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    width: 35%;
+    height: 25%;
+}
+.mt-card-body {
+    /* border: 1px solid green; */
+    height: 35%;
+    width: 100%;
+    position: relative;
+}
+.mt-card-body .text-truncate {
+    padding: 5px 10px;
+    font-size: 13px;
+    color: rgb(74, 74, 74);
+    height: 50%;
+    /* border: 1px solid gray; */
+}
+.mt-card-body .footer {
+    position: absolute;
+    bottom: 0;
+    height: 50%;
+    width: 100%;
+    /* border: 1px solid pink; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.mt-card-body .footer span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid rgba(74, 74, 74, .2);
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    font-size: 11px;
+}
+.mt-card-body .footer span img {
+    height: 16px;
+    width: 16px;
+    object-fit: fill;
+    margin-left: 5px;
+}

@@ -1,0 +1,20 @@
+.map-wrapper {
+    /* border: 1px solid yellow; */
+    width: 33%;
+    min-height: 60vh;
+    position: fixed;
+}
+
+/* .map div {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
+
+@media only screen and (max-width: 768px) {
+    .map div  {
+        display: none;
+    }
+}

@@ -1,0 +1,22 @@
+.content-wrapper {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 60px 0;
+    display: flex;
+    /* text-align: center; */
+}
+
+.mt-card-wrapper {
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
+    width: 60%;
+}
+
+@media only screen and (max-width: 768px) {
+    .mt-card-wrapper  {
+        width: 100%;
+    }
+}
